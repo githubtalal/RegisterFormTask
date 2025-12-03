@@ -1,5 +1,6 @@
 {
   "name": "register-form-app",
+  "homepage": "https://githubtalal.github.io/RegisterFormTask/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -91,13 +91,13 @@ const Register = () => {
 
                                     {
                                         ...showHide,
-                                        'pass': showHide.pass == 'password' ? 'text' : 'password'
+                                        'pass': showHide.pass === 'password' ? 'text' : 'password'
                                     }
                                 )
                             }}>
 
                             {
-                                showHide.pass == 'password' ?
+                                showHide.pass === 'password' ?
                                     <BsEyeFill />
                                     :
                                     <BsEyeSlashFill />
@@ -124,13 +124,13 @@ const Register = () => {
                                 setShowHide(
                                     {
                                         ...showHide,
-                                        'confirm': showHide.confirm == 'password' ? 'text' : 'password'
+                                        'confirm': showHide.confirm === 'password' ? 'text' : 'password'
                                     }
                                 )
                             }}>
 
                             {
-                                showHide.confirm == 'password' ?
+                                showHide.confirm === 'password' ?
                                     <BsEyeFill />
                                     :
                                     <BsEyeSlashFill />
