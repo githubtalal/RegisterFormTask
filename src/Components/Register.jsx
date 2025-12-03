@@ -76,7 +76,7 @@ const Register = () => {
                     }
                 </Form.Group>
                 <Row className="mb-4">
-                    <Form.Group as={Col} controlId="formGroupPassword" className="position-relative">
+                    <Form.Group as={Col} controlId="formGroupPassword" className="position-relative" lg={6} sm={12}>
                         <Form.Label>Password</Form.Label>
                         <Form.Control type={showHide.pass} placeholder="Password" onInput={e => 
                             setRegisterData({
@@ -111,9 +111,9 @@ const Register = () => {
                         }
 
                     </Form.Group>
-                    <Form.Group as={Col} controlId="formGroupConfirmPassword" className='position-relative'>
+                    <Form.Group as={Col} controlId="formGroupConfirmPassword" className='position-relative' lg={6} sm={12}>
                         <Form.Label>Confirm Password</Form.Label>
-                        <Form.Control type={showHide.confirm} placeholder="Confirm Password" onInput={e => 
+                        <Form.Control type={showHide.confirm} placeholder="Confirm Password"  onInput={e => 
                             setRegisterData({
                                 ...registerData,
                                 'confirm_password': e.target.value
