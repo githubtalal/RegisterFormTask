@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/RegisterFormTask/static/css/main.96b66da2.css",
+    "main.js": "/RegisterFormTask/static/js/main.072fa1eb.js",
+    "index.html": "/RegisterFormTask/index.html",
+    "main.96b66da2.css.map": "/RegisterFormTask/static/css/main.96b66da2.css.map",
+    "main.072fa1eb.js.map": "/RegisterFormTask/static/js/main.072fa1eb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96b66da2.css",
+    "static/js/main.072fa1eb.js"
+  ]
+}
