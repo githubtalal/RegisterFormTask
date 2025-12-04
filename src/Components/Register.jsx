@@ -109,7 +109,6 @@ const Register = () => {
                                 :
                                 ""
                         }
-
                     </Form.Group>
                     <Form.Group as={Col} controlId="formGroupConfirmPassword" className='position-relative' lg={6} sm={12}>
                         <Form.Label>Confirm Password</Form.Label>
@@ -128,7 +127,6 @@ const Register = () => {
                                     }
                                 )
                             }}>
-
                             {
                                 showHide.confirm === 'password' ?
                                     <BsEyeFill />
