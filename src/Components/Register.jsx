@@ -127,6 +127,7 @@ const Register = () => {
                                     }
                                 )
                             }}>
+                                
                             {
                                 showHide.confirm === 'password' ?
                                     <BsEyeFill />
